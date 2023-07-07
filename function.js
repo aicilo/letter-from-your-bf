@@ -1,7 +1,7 @@
 const headlines = [
   {
     type: "animated",
-    text: "Mahal kita asd asd asd asd asd asd ",
+    text: "Hello, Si Jayson nga pala to.. yung bf mo. remember?, Miss na miss na kasi kita e. Baka naman pwedeng kausapin mo na ako..,Sorry nadala lang talaga ako ng stress diko sinasadya yung mga nasabi ko., Pero kung hindi ka pa okay at ayaw mo pa ako kausapin okay lang... Wala naman akong ibang magagawa kundi maghintay. Kahit galit ka sa akin wag ka pa din magpapabaya ahh!, Kumaen ka wag papalipas at mag iingat ka palagi. Mahal na mahal kita.",
   },
 ];
 
