@@ -1,12 +1,14 @@
-const audio = document.querySelector("#bg-sound");
-navigator.mediaDevices.getUserMedia({ audio: true });
+var promise = document.querySelector("#bg-sound").play();
 
-window.addEventListener("load", playMusic);
-
-async function playMusic() {
-  try {
-    await audio.play();
-  } catch (error) {
-    console.log(error);
-  }
+if (promise !== undefined) {
+  promise
+    .then((_) => {
+      // Autoplay started!
+      console.log("Autoplay started!");
+    })
+    .catch((error) => {
+      console.log("Autoplay was prevented");
+      // Autoplay was prevented.
+      // Show a "Play" button so that user can start playback.
+    });
 }
